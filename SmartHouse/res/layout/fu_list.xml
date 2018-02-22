@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="10dp"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/img_futype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher"
+         />
+
+    <LinearLayout
+        android:id="@+id/txtgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/img_futype"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_fuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试名字"
+            android:layout_marginBottom="3dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_fuinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试名字"
+            android:layout_marginTop="3dp"
+            android:textColor="#646464"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+         />
+
+</RelativeLayout>

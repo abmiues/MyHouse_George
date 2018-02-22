@@ -1,0 +1,42 @@
+# view res/layout/activity_main.xml #generated:41
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class cn.jpush.android.service.DaemonService { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class cn.jpush.android.service.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class cn.jpush.android.service.PushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class cn.jpush.android.service.PushService { <init>(...); }
+
+# view res/layout/jpush_webview_layout.xml #generated:2
+-keep class cn.jpush.android.ui.FullScreenView { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class cn.jpush.android.ui.PushActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.abmiues.FirstActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.abmiues.ListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.abmiues.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.abmiues.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.abmiues.MyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.abmiues.PictureActivity { <init>(...); }
+
